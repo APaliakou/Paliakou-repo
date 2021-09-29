@@ -2,8 +2,6 @@
 # coding: utf-8
 
 # In[1]:
-
-
 # create a list of random number of dicts (from 2 to 10)
 
 #dict's random numbers of keys should be letter,
@@ -30,8 +28,6 @@ print(listdict)
 
 
 # In[2]:
-
-
 #get previously generated list of dicts and create one common dict:
 
 #if dicts have same key, we will take max value, and rename key with dict number with max value
@@ -58,6 +54,5 @@ for i in range(len(listdict)):
         else:
             newpair = {j:tmpdict.get(j)}
             commondict.update(newpair)
-            
-        
+                    
 print(commondict)
